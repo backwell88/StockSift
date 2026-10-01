@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "name": "Jayson缩量回调策略",
+  "pool": "mainboard",
+  "exclude_st": false,
+  "rule": {
+    "all": [
+      {
+        "metric": "return_pct",
+        "params": {
+          "days": 5
+        },
+        "op": "between",
+        "value": [
+          -8,
+          -2
+        ]
+      },
+      {
+        "metric": "volume_ratio",
+        "params": {
+          "short": 5,
+          "long": 30
+        },
+        "op": "<",
+        "value": 0.6
+      },
+      {
+        "metric": "active_weeks",
+        "params": {
+          "weeks": 8,
+          "amplitude": 1.0
+        },
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "metric": "net_profit",
+        "params": {},
+        "op": ">",
+        "value": 0
+      }
+    ]
+  }
+}

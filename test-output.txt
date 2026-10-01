@@ -1,0 +1,126 @@
+test_100_iterations_rollback_and_restart (test_core.PersistenceEngineTests.test_100_iterations_rollback_and_restart) ... ok
+test_ai_complete_validated_strategy (test_core.PersistenceEngineTests.test_ai_complete_validated_strategy) ... ok
+test_ai_rejects_code_and_invalid_schema (test_core.PersistenceEngineTests.test_ai_rejects_code_and_invalid_schema) ... ok
+test_cancel_prevents_work_and_counts (test_core.PersistenceEngineTests.test_cancel_prevents_work_and_counts) ... ok
+test_concurrent_report_names_and_restart (test_core.PersistenceEngineTests.test_concurrent_report_names_and_restart) ... ok
+test_full_run_report_counts_and_snapshot (test_core.PersistenceEngineTests.test_full_run_report_counts_and_snapshot) ... ok
+test_invalid_save_does_not_corrupt_default (test_core.PersistenceEngineTests.test_invalid_save_does_not_corrupt_default) ... ok
+test_network_failure_distinct_from_no_match (test_core.PersistenceEngineTests.test_network_failure_distinct_from_no_match) ... ok
+test_stale_stock_is_missing (test_core.PersistenceEngineTests.test_stale_stock_is_missing) ... ok
+test_universe_failure_is_incomplete (test_core.PersistenceEngineTests.test_universe_failure_is_incomplete) ... ok
+test_cutoff_cst (test_core.ProviderTests.test_cutoff_cst) ... ok
+test_financial_publication_and_fields (test_core.ProviderTests.test_financial_publication_and_fields) ... ok
+test_pagination_cannot_silently_truncate (test_core.ProviderTests.test_pagination_cannot_silently_truncate) ... ok
+test_pagination_complete_filters_market (test_core.ProviderTests.test_pagination_complete_filters_market) ... ok
+test_validate_bars_and_sort (test_core.ProviderTests.test_validate_bars_and_sort) ... ok
+test_any_three_value_logic (test_core.RulesTests.test_any_three_value_logic) ... ok
+test_breakout_excludes_today_high (test_core.RulesTests.test_breakout_excludes_today_high) ... ok
+test_calendar_week_not_five_rows (test_core.RulesTests.test_calendar_week_not_five_rows) ... ok
+test_comparison_inclusive_and_strict (test_core.RulesTests.test_comparison_inclusive_and_strict) ... ok
+test_conflicting_conditions (test_core.RulesTests.test_conflicting_conditions) ... ok
+test_cycles_and_periods (test_core.RulesTests.test_cycles_and_periods) ... ok
+test_invalid_and_injection_rejected (test_core.RulesTests.test_invalid_and_injection_rejected) ... ok
+test_ma_and_amplitude_known_values (test_core.RulesTests.test_ma_and_amplitude_known_values) ... ok
+test_mainboard_excludes_star (test_core.RulesTests.test_mainboard_excludes_star) ... ok
+test_missing_profit_never_passes (test_core.RulesTests.test_missing_profit_never_passes) ... ok
+test_negative_and_zero_profit_rejected (test_core.RulesTests.test_negative_and_zero_profit_rejected) ... ok
+test_no_rounding_before_compare (test_core.RulesTests.test_no_rounding_before_compare) ... ok
+test_original_default_preserved (test_core.RulesTests.test_original_default_preserved) ... ok
+test_short_history_and_zero_volume (test_core.RulesTests.test_short_history_and_zero_volume) ... ok
+test_access_block_marks_scan_incomplete_without_draining_pool (test_live_adapters.AdapterRegressionTests.test_access_block_marks_scan_incomplete_without_draining_pool) ... ok
+test_access_block_stops_retries_and_later_requests (test_live_adapters.AdapterRegressionTests.test_access_block_stops_retries_and_later_requests) ... ok
+test_cancelled_http_does_not_open_network (test_live_adapters.AdapterRegressionTests.test_cancelled_http_does_not_open_network) ... ok
+test_changed_total_and_midway_failure_never_return_partial_list (test_live_adapters.AdapterRegressionTests.test_changed_total_and_midway_failure_never_return_partial_list) ... ok
+test_eastmoney_ignores_lmt_without_loading_old_adjusted_prices (test_live_adapters.AdapterRegressionTests.test_eastmoney_ignores_lmt_without_loading_old_adjusted_prices) ... ok
+test_failed_tencent_does_not_call_other_sources (test_live_adapters.AdapterRegressionTests.test_failed_tencent_does_not_call_other_sources) ... ok
+test_http_status_retained_in_error (test_live_adapters.AdapterRegressionTests.test_http_status_retained_in_error) ... ok
+test_index_accepts_unadjusted_index_series (test_live_adapters.AdapterRegressionTests.test_index_accepts_unadjusted_index_series) ... ok
+test_malformed_kline_is_failure (test_live_adapters.AdapterRegressionTests.test_malformed_kline_is_failure) ... ok
+test_no_raw_prices_substituted_for_missing_qfq (test_live_adapters.AdapterRegressionTests.test_no_raw_prices_substituted_for_missing_qfq) ... ok
+test_partial_duplicate_page_is_rejected (test_live_adapters.AdapterRegressionTests.test_partial_duplicate_page_is_rejected) ... ok
+test_probe_cli_exit_indicates_failure (test_live_adapters.AdapterRegressionTests.test_probe_cli_exit_indicates_failure) ... ok
+test_tencent_qfq_column_mapping_and_intraday_cutoff (test_live_adapters.AdapterRegressionTests.test_tencent_qfq_column_mapping_and_intraday_cutoff) ... ok
+test_tencent_requests_correct_shenzhen_symbol_and_qfq (test_live_adapters.AdapterRegressionTests.test_tencent_requests_correct_shenzhen_symbol_and_qfq) ... ok
+test_upstream_rejection_and_wrong_symbol_are_failures (test_live_adapters.AdapterRegressionTests.test_upstream_rejection_and_wrong_symbol_are_failures) ... ok
+test_assets_and_first_use (test_starter.StarterTests.test_assets_and_first_use) ... ok
+test_default_data_directory_is_inside_project (test_starter.StarterTests.test_default_data_directory_is_inside_project) ... ok
+test_deleted_sample_not_reimported (test_starter.StarterTests.test_deleted_sample_not_reimported) ... ok
+test_existing_user_data_untouched (test_starter.StarterTests.test_existing_user_data_untouched) ... ok
+test_migration_keeps_edited_jayson_when_default_is_another_strategy (test_starter.StarterTests.test_migration_keeps_edited_jayson_when_default_is_another_strategy) ... ok
+test_migration_prefers_default_among_named_jayson_strategies (test_starter.StarterTests.test_migration_prefers_default_among_named_jayson_strategies) ... ok
+test_migration_restores_starter_when_old_db_has_no_matching_strategy (test_starter.StarterTests.test_migration_restores_starter_when_old_db_has_no_matching_strategy) ... ok
+test_old_strategy_rows_archived_once_without_changing_reports (test_starter.StarterTests.test_old_strategy_rows_archived_once_without_changing_reports) ... ok
+test_rename_updates_only_saved_name_in_same_row (test_starter.StarterTests.test_rename_updates_only_saved_name_in_same_row) ... ok
+test_same_named_report_preserved (test_starter.StarterTests.test_same_named_report_preserved) ... ok
+test_export_visible_writes_only_filtered_rows (test_ui.ResultsTableTests.test_export_visible_writes_only_filtered_rows) ... ok
+test_numeric_columns_sort_as_numbers_not_text (test_ui.ResultsTableTests.test_numeric_columns_sort_as_numbers_not_text) ... ok
+test_api_key_is_saved_and_reloaded (test_ui.UITests.test_api_key_is_saved_and_reloaded) ... can't invoke "event" command: application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+can't invoke "event" command: application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+ok
+test_api_key_memory_only_when_not_kept_and_clearable (test_ui.UITests.test_api_key_memory_only_when_not_kept_and_clearable) ... ok
+test_backtest_preview_reads_the_selected_report (test_ui.UITests.test_backtest_preview_reads_the_selected_report) ... ok
+test_condition_picker_explains_metrics_before_selection (test_ui.UITests.test_condition_picker_explains_metrics_before_selection) ... ok
+test_connection_results_fit_minimum_window (test_ui.UITests.test_connection_results_fit_minimum_window) ... ok
+test_demo_button_and_report_view (test_ui.UITests.test_demo_button_and_report_view) ... ok
+test_new_install_default_and_saved_source_preserved (test_ui.UITests.test_new_install_default_and_saved_source_preserved) ... ok
+test_rename_keeps_saved_strategy_id_and_rule (test_ui.UITests.test_rename_keeps_saved_strategy_id_and_rule) ... ok
+test_report_table_sorts_filters_and_exports (test_ui.UITests.test_report_table_sorts_filters_and_exports) ... ok
+test_screen_progress_stages_and_cancelled_state (test_ui.UITests.test_screen_progress_stages_and_cancelled_state) ... ok
+test_tabs_and_edit_save (test_ui.UITests.test_tabs_and_edit_save) ... ok
+test_unchecked_reports_are_not_sent (test_ui.UITests.test_unchecked_reports_are_not_sent) ... ok
+test_attachment_count_and_size_are_bounded (test_v120.AiReportContextTests.test_attachment_count_and_size_are_bounded) ... ok
+test_missing_file_raises (test_v120.AiReportContextTests.test_missing_file_raises) ... ok
+test_no_selection_sends_nothing (test_v120.AiReportContextTests.test_no_selection_sends_nothing) ... ok
+test_paths_outside_the_report_directory_are_refused (test_v120.AiReportContextTests.test_paths_outside_the_report_directory_are_refused) ... ok
+test_selected_report_is_labelled_as_data_not_instructions (test_v120.AiReportContextTests.test_selected_report_is_labelled_as_data_not_instructions) ... ok
+test_backtest_files_are_distinct_and_audited (test_v120.BacktestTests.test_backtest_files_are_distinct_and_audited) ... ok
+test_bars_from_reports_a_series_that_starts_too_late (test_v120.BacktestTests.test_bars_from_reports_a_series_that_starts_too_late) ... ok
+test_cancel_before_start_counts_every_stock_as_cancelled (test_v120.BacktestTests.test_cancel_before_start_counts_every_stock_as_cancelled) ... ok
+test_demo_report_is_refused (test_v120.BacktestTests.test_demo_report_is_refused) ... ok
+test_empty_match_list_is_refused (test_v120.BacktestTests.test_empty_match_list_is_refused) ... ok
+test_explicit_provider_overrides_the_report_source (test_v120.BacktestTests.test_explicit_provider_overrides_the_report_source) ... ok
+test_live_provider_uses_one_request_per_stock (test_v120.BacktestTests.test_live_provider_uses_one_request_per_stock) ... ok
+test_out_of_range_and_missing_data_are_never_filled_with_zero (test_v120.BacktestTests.test_out_of_range_and_missing_data_are_never_filled_with_zero) ... ok
+test_provider_source_follows_the_original_report (test_v120.BacktestTests.test_provider_source_follows_the_original_report) ... ok
+test_single_continuous_series_is_used_for_both_prices (test_v120.BacktestTests.test_single_continuous_series_is_used_for_both_prices) ... ok
+test_suspended_baseline_uses_last_earlier_trading_day (test_v120.BacktestTests.test_suspended_baseline_uses_last_earlier_trading_day) ... ok
+test_csv_is_bom_crlf_and_escaped (test_v120.ExportTests.test_csv_is_bom_crlf_and_escaped) ... ok
+test_missing_values_are_blank_not_zero (test_v120.ExportTests.test_missing_values_are_blank_not_zero) ... ok
+test_number_keeps_shortest_round_trip_and_blanks_missing (test_v120.ExportTests.test_number_keeps_shortest_round_trip_and_blanks_missing) ... ok
+test_report_csv_contains_every_status (test_v120.ExportTests.test_report_csv_contains_every_status) ... ok
+test_text_neutralises_spreadsheet_formulas (test_v120.ExportTests.test_text_neutralises_spreadsheet_formulas) ... ok
+test_json_sidecar_is_preferred (test_v120.ReportParsingTests.test_json_sidecar_is_preferred) ... ok
+test_markdown_only_report_still_parses_and_is_marked_approximate (test_v120.ReportParsingTests.test_markdown_only_report_still_parses_and_is_marked_approximate) ... ok
+test_missing_file_is_rejected (test_v120.ReportParsingTests.test_missing_file_is_rejected) ... ok
+test_non_report_file_is_rejected (test_v120.ReportParsingTests.test_non_report_file_is_rejected) ... ok
+test_generated_date_fallback_is_explicit (test_v121.ReviewRegressions.test_generated_date_fallback_is_explicit) ... ok
+test_long_history_request_uses_elapsed_time (test_v121.ReviewRegressions.test_long_history_request_uses_elapsed_time) ... ok
+test_market_rejection_does_not_start_individual_requests (test_v121.ReviewRegressions.test_market_rejection_does_not_start_individual_requests) ... ok
+test_source_label_resolved_without_silent_tencent_fallback (test_v121.ReviewRegressions.test_source_label_resolved_without_silent_tencent_fallback) ... ok
+test_enter_sends_and_suppresses_newline (test_v130.EnterTests.test_enter_sends_and_suppresses_newline) ... ok
+test_shift_enter_is_newline_and_composition_never_sends (test_v130.EnterTests.test_shift_enter_is_newline_and_composition_never_sends) ... ok
+test_deleted_highest_id_is_not_reused (test_v130.VersionDeletionTests.test_deleted_highest_id_is_not_reused) ... ok
+test_last_version_cannot_be_deleted (test_v130.VersionDeletionTests.test_last_version_cannot_be_deleted) ... ok
+test_only_one_id_removed_reports_untouched_and_restart_valid (test_v130.VersionDeletionTests.test_only_one_id_removed_reports_untouched_and_restart_valid) ... ok
+test_ui_delete_uses_loaded_id_not_dropdown (test_v130.VersionDeletionTests.test_ui_delete_uses_loaded_id_not_dropdown) ... ok
+test_business_error_and_wrong_offset_rejected (test_v131.TencentUniverseTests.test_business_error_and_wrong_offset_rejected) ... ok
+test_complete_pages_rechecked_and_only_names_used (test_v131.TencentUniverseTests.test_complete_pages_rechecked_and_only_names_used) ... ok
+test_duplicate_page_is_error_not_silent_deduplication (test_v131.TencentUniverseTests.test_duplicate_page_is_error_not_silent_deduplication) ... ok
+test_final_count_change_rejects_result (test_v131.TencentUniverseTests.test_final_count_change_rejects_result) ... ok
+test_no_eastmoney_fallback_on_tencent_failure (test_v131.TencentUniverseTests.test_no_eastmoney_fallback_on_tencent_failure) ... ok
+test_short_page_and_changed_total_are_errors (test_v131.TencentUniverseTests.test_short_page_and_changed_total_are_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 109 tests in 28.432s
+
+OK

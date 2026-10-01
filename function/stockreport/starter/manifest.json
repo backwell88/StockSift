@@ -1,0 +1,10 @@
+{
+  "report": "StockReport_2026-09-24_001",
+  "strategy_name": "Jayson缩量回调策略",
+  "sha256": {
+    "StockReport_2026-09-24_001.json": "3fc790ec60f45166a44663fc0e2426e592aa909ea7c83e6b65f4721876ab513a",
+    "StockReport_2026-09-24_001.md": "e2b331b0c30141a84f7c763da4ba6529b0fc7c0f941737842f989327b5951714",
+    "StockReport_2026-09-24_001.csv": "73dabc9563843bbe72ee508c6df8bd71d0b8c8baa8ef3237a2d397e06e2f37b7",
+    "strategy.json": "2d86cddf8c1c4a08f0eb2a063b495a927c4b2f98a4d30b84f1f39d007dd67f03"
+  }
+}

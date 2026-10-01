@@ -1,0 +1,3 @@
+# Runtime uses only Python standard library (including tkinter).
+# Build this on Windows; record the resolved versions in the build manifest.
+PyInstaller>=6.10,<7
